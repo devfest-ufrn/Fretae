@@ -4,8 +4,9 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<style type="text/css">
-		.btn1 {
-			margin-top: 30px;
+		/* Estilo do Botão */
+		button {
+			margin-top: 20px;
 			float: right;
 		}
 	</style>
@@ -20,46 +21,46 @@
 			<div class="col-md-8">
 				<form class="form">
 
-					<!-- Input Name -->
-					<div class="row">
+					<!-- Entrada de Nome e Sobrenome -->
+					<div class="row form-group">
 						<div class="col">
-							<label for="InputFirstName" >Nome</label>
-							<input type="text" class="form-control" id="InputFirstName" placeholder="Nome">
+							<label for="FirstName" >Nome</label>
+							<input type="text" class="form-control" id="FirstName" placeholder="Nome">
 						</div>
 						<div class="col">
-							<label for="InputLastName">Sobrenome</label>
-							<input type="text" class="form-control" id="InputLastName" placeholder="Sobrenome">
+							<label for="LastName">Sobrenome</label>
+							<input type="text" class="form-control" id="LastName" placeholder="Sobrenome">
 						</div>
 					</div>
 
-					<!-- Input Email -->
-					<div class="form-group">
-						<label for="InputEmail">E-mail</label>
-						<input type="email" class="form-control" id="InputEmail" placeholder="E-mail">
-					</div>
-
-					<!-- Input Phone -->
-					<div class="row">
+					<!-- Entrada de Telefone -->
+					<div class="row form-group">
 						<div class="col-md-6">
-						<label for="InputPhone">Telefone</label>
-						<input type="text" class="form-control" id="InputPhone" placeholder="Telefone">
+						<label for="Phone">Telefone</label>
+						<input type="text" class="form-control" id="Phone" placeholder="Telefone">
 						</div>
 					</div>
 
-					<!-- Input Login and Password -->
-					<div class="row">
+					<!-- Entrada de E-mail -->
+					<div class="form-group">
+						<label for="Email">E-mail</label>
+						<input type="email" class="form-control" id="Email" placeholder="E-mail">
+					</div>
+
+					<!-- Entrada de Login e Senha -->
+					<div class="row form-group">
 						<div class="col">
-							<label for="InputLogin">Login</label>
+							<label for="Login">Login</label>
 							<input type="text" class="form-control" id="Login" placeholder="Login">
 						</div>
 						<div class="col">
-							<label for="InputPassword">Senha</label>
+							<label for="Password">Senha</label>
 							<input type="password" class="form-control" id="Password" placeholder="Senha">        
 						</div>
 					</div>
 
-					<!-- Button -->
-					<button type="submit" class="btn btn-outline-primary btn1">Cadastrar</button>
+					<!-- Botão -->
+					<button type="submit" class="btn btn-outline-primary">Cadastrar</button>
 
 				</form>
 			</div>
