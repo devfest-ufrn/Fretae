@@ -19,9 +19,9 @@
 
 		<div class="col-md-8">
 			<div class="col-md-8">
-				<form class="form">
+				<form >
 
-					<!-- Entrada de Nome e Sobrenome -->
+					<!-- Informações Pessoais -->
 					<div class="row form-group">
 						<div class="col">
 							<label for="FirstName" >Nome</label>
@@ -33,21 +33,18 @@
 						</div>
 					</div>
 
-					<!-- Entrada de Telefone -->
 					<div class="row form-group">
-						<div class="col-md-6">
-						<label for="Phone">Telefone</label>
-						<input type="text" class="form-control" id="Phone" placeholder="Telefone">
+						<div class="col-md-4">
+							<label for="Phone">Telefone</label>
+							<input type="text" class="form-control" id="Phone" placeholder="Telefone" maxlength="9">
+						</div>
+						<div class="col">
+							<label for="Email">E-mail</label>
+							<input type="email" class="form-control" id="Email" placeholder="E-mail">
 						</div>
 					</div>
 
-					<!-- Entrada de E-mail -->
-					<div class="form-group">
-						<label for="Email">E-mail</label>
-						<input type="email" class="form-control" id="Email" placeholder="E-mail">
-					</div>
-
-					<!-- Entrada de Login e Senha -->
+					<!-- Login e Senha -->
 					<div class="row form-group">
 						<div class="col">
 							<label for="Login">Login</label>
@@ -59,7 +56,6 @@
 						</div>
 					</div>
 
-					<!-- Botão -->
 					<button type="submit" class="btn btn-outline-primary">Cadastrar</button>
 
 				</form>
@@ -68,3 +64,4 @@
 	</div>
 </body>
 </html>
+

@@ -4,73 +4,102 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<style type="text/css">
-		/* Estilo do Botão */
 		button {
 			margin-top: 20px;
 			float: right;
 		}
 	</style>
-	<title>Fretâe</title>
+	<title>Fretae</title>
 </head>
 <body>
+
 	<div class="row">
 		<!-- Posicionamento Formulário -->
 		<div class="col-md-4"></div>
 
 		<div class="col-md-8">
 			<div class="col-md-8">
-				<form class="form">
-
-					<!-- Entrada de Nome e Sobrenome -->
-					<div class="row form-group">
-						<div class="col">
-							<label for="FirstName" >Nome</label>
-							<input type="text" class="form-control" id="FirstName" placeholder="Nome">
+				<form>
+					<!-- Informações Pessoais -->
+					<fieldset id="Pessoais" class="form-group">
+						<legend>Informações Pessoais</legend>
+						<div class="row form-group">
+							<div class="col">
+								<label for="FirstName">Nome</label>
+								<input type="text" class="form-control" id="FirstName" placeholder="Nome">
+							</div>
+							<div class=" col">
+								<label for="LastName">Sobrenome</label>
+								<input type="text" class="form-control" id="LastName" placeholder="Sobrenome">
+							</div>
 						</div>
-						<div class="col">
-							<label for="LastName">Sobrenome</label>
-							<input type="text" class="form-control" id="LastName" placeholder="Sobrenome">
+						<div class="row form-group">
+							<div class="col-md-4">
+								<label for="Phone">Telefone</label>
+								<input type="tel" class="form-control" id="Phone" placeholder="Telefone" maxlength="9">
+							</div>
+							<div class="col">
+								<label for="Email">E-mail</label>
+								<input type="email" class="form-control" id="Email" placeholder="E-mail">
+							</div>
 						</div>
-					</div>
+					</fieldset class="">
 
-					<!-- Entrada de Telefone -->
-					<div class="row form-group">
-						<div class="col-md-6">
-						<label for="Phone">Telefone</label>
-						<input type="text" class="form-control" id="Phone" placeholder="Telefone">
+					<!-- Informações do Local de Trabalho -->
+					<fieldset id="Endereco" class="form-group">
+						<legend>Local de Trabalho</legend>
+						<div class="row form-group">
+							<!-- Em análise -->
+							<div class="col">
+								<label for="Logradouro">Logradouro</label>
+								<input type="text" class="form-control" id="Logradouro" placeholder="Logradouro">
+							</div>
+							<div class="col-md-2">
+								<label for="Numero">Número</label>
+								<input type="number" class="form-control" id="Numero" placeholder="Número" min="0" max="99999">
+							</div>
 						</div>
-					</div>
-
-					<!-- Entrada de E-mail -->
-					<div class="form-group">
-						<label for="Email">E-mail</label>
-						<input type="email" class="form-control" id="Email" placeholder="E-mail">
-					</div>
-
-					<!-- Entrada de Login e Senha -->
-					<div class="row form-group">
-						<div class="col">
-							<label for="Login">Login</label>
-							<input type="text" class="form-control" id="Login" placeholder="Login">
+						<div class="row form-group">
+							<div class="col">
+								<label for="Bairro">Bairro</label>
+								<input type="text" class="form-control" id="Bairro" placeholder="Bairro">
+							</div>
+							<div class="col">
+								<label for="Cidade">Cidade</label>
+								<input type="text" class="form-control" id="Cidade" placeholder="Cidade">
+							</div>
+							<div class="col-md-2">
+								<label for="Estado">Estado</label>
+								<input type="text" class="form-control" id="Estado" placeholder="Estado">
+							</div>
 						</div>
-						<div class="col">
-							<label for="Password">Senha</label>
-							<input type="password" class="form-control" id="Password" placeholder="Senha">        
+					</fieldset>
+
+					<!-- Adicionar informações do Veículo -->
+
+					<!-- Login e Senha -->
+					<fildset id="Acesso">
+						<div class="row form-group">
+							<div class="col">
+								<label for="Login">Login</label>
+								<input type="text" class="form-control" id="Login" placeholder="Login">
+							</div>
+							<div class="col">
+								<label for="Senha">Senha</label>
+								<input type="password" class="form-control" id="Senha" placeholder="Senha">
+							</div>
 						</div>
-					</div>
+					</fieldset>
 
-					<!-- Entrada de Ponto de Trabalho -->
-					<div class="form-group">
-						<label for="Logradouro">Endereço</label>
-						<input type="" class="form-control" id="Logradouro" placeholder="Endereço">
-					</div>
-
-					<!-- Botão -->
 					<button type="submit" class="btn btn-outline-primary">Cadastrar</button>
-
 				</form>
-			</div>
 		</div>
+
+		</div>
+
 	</div>
+
+
+
 </body>
 </html>
