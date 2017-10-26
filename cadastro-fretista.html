@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+		button {
+			margin-top: 20px;
+			float: right;
+		}
+	</style>
+	<title>Fretaê</title>
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col">
+			<div class="col-md-8">
+
+				<form action="cadastro-fretista_submit" method="get" accept-charset="utf-8">
+
+					<div class="row form-group">
+						<div class="col">
+							<label for="cNome">Nome</label>
+							<input type="text" class="form-control" required="required" name="tNome" id="cNome" placeholder="Nome" pattern="[a-zA-Z\s]+$" title="Deve conter apenas letras!">
+						</div>
+						<div class="col">
+							<label for="cSobrenome">Sobrenome</label>
+							<input type="text" class="form-control" name="tSobrenome" id="cSobrenome" placeholder="Sobrenome">
+						</div>
+					</div>
+					<div class="row form-group"> 
+						<div class="col-md-4">
+							<label for="cTelefone">Telefone</label>
+							<input type="tel" class="form-control" name="tTelefone" id="cTelefone" placeholder="Telefone">
+						</div>
+						<div class="col">
+							<label for="cEmail">E-mail</label>
+							<input type="email" class="form-control" name="tEmail" id="cEmail" placeholder="E-mail">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col">
+							<label for="cBairro">Bairro</label>
+							<input type="text" class="form-control" name="tBairro" id="cBairro" placeholder="Bairro">
+						</div>
+						<div class="col">
+							<label for="cCidade">Cidade</label>
+							<input type="text" class="form-control" name="tCidade" id="cCidade" placeholder="Cidade">
+						</div>
+						<div class="col-md-2">
+							<label for="cEstado">Estado</label>
+							<input type="text" class="form-control" name="tEstado" id="cEstado" placeholder="UF">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col">
+							<label for="cLogin">Login</label>
+							<input type="text" class="form-control" name="tLogin" id="cLogin" placeholder="Login">
+						</div>
+						<div class="col">
+							<label for="cSenha">Senha</label>
+							<input type="password" class="form-control" name="tSenha" id="cSenha" placeholder="Senha">
+						</div>
+					</div>
+					<button type="submit" class="btn btn-outline-primary" name="tCadastrar" id="cCadastrar">Cadastrar</button>
+
+				</form>
+				
+			</div>	
+		</div>
+	</div>
+
+</body>
+</html>
