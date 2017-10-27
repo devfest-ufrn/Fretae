@@ -8,9 +8,6 @@
 			margin-top: 20px;
 			float: right;
 		}
-		hr {
-			padding-top: 10px;
-		}
 		label {
 			color: #6a6a6a;
 		}
@@ -21,7 +18,7 @@
 			background: #f0f7ff;
 		}
 		.legend1 {
-			padding-top: 20px;
+			padding-top: 10px;
 		}
 	</style>
 	<title>Fretaê</title>
@@ -36,25 +33,25 @@
 				<form action="cadastro-fretista_submit" method="get" accept-charset="utf-8">
 
 					<fieldset class="form-group">
-						<legend>Informações do Fretista<hr></legend>
+						<legend><strong>Informações do Fretista</strong><hr></legend>
 						<div class="row form-group">
 							<div class="col">
 								<label for="cNome">Nome</label>
-								<input type="text" class="form-control" name="tNome" id="cNome" placeholder="Nome">
+								<input type="text" class="form-control" name="tNome" id="cNome"">
 							</div>
 							<div class="col">
 								<label for="cSobrenome">Sobrenome</label>
-								<input type="text" class="form-control" name="tSobrenome" id="cSobrenome" placeholder="Sobrenome">
+								<input type="text" class="form-control" name="tSobrenome" id="cSobrenome">
 							</div>
 						</div>
 						<div class="row form-group"> 
 							<div class="col-md-4">
 								<label for="cTelefone">Telefone</label>
-								<input type="tel" class="form-control" name="tTelefone" id="cTelefone" placeholder="Telefone">
+								<input type="tel" class="form-control" name="tTelefone" id="cTelefone">
 							</div>
 							<div class="col">
 								<label for="cEmail">E-mail</label>
-								<input type="email" class="form-control" name="tEmail" id="cEmail" placeholder="E-mail">
+								<input type="email" class="form-control" name="tEmail" id="cEmail" placeholder="nome@exemplo.com">
 							</div>
 						</div>
 						<div class="row form-group">
@@ -69,31 +66,39 @@
 					</div>
 					</fieldset>
 					<fieldset class="form-group">
-						<legend class="legend1">Informações do Serviço<hr></legend>
+						<legend class="legend1"><strong>Informações do Serviço</strong><hr></legend>
 						<div class="row form-group">
 							<div class="col">
 								<label for="cBairro">Bairro</label>
-								<input type="text" class="form-control" name="tBairro" id="cBairro" placeholder="Bairro">
+								<input type="text" class="form-control" name="tBairro" id="cBairro">
 							</div>
 							<div class="col">
 								<label for="cCidade">Cidade</label>
-								<input type="text" class="form-control" name="tCidade" id="cCidade" placeholder="Cidade">
+								<input type="text" class="form-control" name="tCidade" id="cCidade">
 							</div>
 							<div class="col-md-2">
 								<label for="cEstado">Estado</label>
-								<input type="text" class="form-control" name="tEstado" id="cEstado" placeholder="UF">
+								<input type="text" class="form-control" name="tEstado" id="cEstado">
 							</div>
 						</div>
 						<div class="row form-group">
 							<div class="col-md-3">
 								<label for="cPlaca">Placa do Carro</label>
-								<input type="text" class="form-control" name="tPlaca" id="cPlaca" placeholder="Placa">
+								<input type="text" class="form-control" name="tPlaca" id="cPlaca">
 							</div>
-
+							<div class="col-md-4">
+								<label for="cCategoria">Categoria</label>
+								<select class="form-control" name="tCategoria" id="cCategoria">
+									<option>Motoboy</option>
+									<option>Pequeno Porte</option>
+									<option>Médio Porte</option>
+								</select>
+							</div>
+								
 
 							
 						</div>
-							Placa
+	
 							Categoria
 							Modelo
 							Cor
