@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+		button {
+			margin-top: 20px;
+			float: right;
+		}
+		
+		label {
+			color: #6a6a6a;
+		}
+		legend {
+			color: #2d86ff
+		}
+		.row {
+			background: #f0f7ff;
+		}
+		.legend1 {
+			padding-top: 10px;
+		}
+	</style>
+	<title>Fretaê</title>
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col">
+			<div class="col-md-8">
+
+				<form action="cadastro-cliente_submit" method="get" accept-charset="utf-8">
+					
+					<fieldset class="form-group">
+						<legend><strong>Endereço de Origem</strong><hr></legend>
+						<div class="row form-group">
+							<div class="col">
+								<label for="cLogradouro">Logradouro</label>
+								<input type="text" class="form-control" name="tLogradouro" id="cLogradouro">
+							</div>
+							<div class="col-md-3">
+								<label for="cNumero">Número</label>
+								<input type="text" class="form-control" name="tNumero" id="cNumero">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col">
+									<label for="cBairro">Bairro</label>
+									<input type="text" class="form-control" name="tBairro" id="cBairro" placeholder="">
+							</div>
+							<div class="col">
+									<label for="cComplemento">Complemento</label>
+									<input type="text" class="form-control" name="tComplemento" id="cComplemento" placeholder="">
+							</div>
+						</div>
+						<div class="row form-group">		
+							<div class="col">
+								<label for="cPontoRef">Ponto de Referência</label>
+								<input type="text" class="form-control" name="tPontoRef" id="cPontoRef">	
+							</div>				
+							<div class="col">
+								<label for="cCidade">Cidade</label>
+								<input type="text" class="form-control" name="tCidade" id="cCidade">
+							</div>
+							<div class="col-md-3">
+								<label for="cEstado">Estado</label>
+								<select  type="text" class="form-control" name="tEstado" id="cEstado">
+									<option>AC</option>
+									<option>AL</option>
+									<option>AP</option>
+									<option>AM</option>
+									<option>BA</option>
+									<option>CE</option>
+									<option>DF</option>
+									<option>ES</option>
+									<option>GO</option>
+									<option>MA</option>
+									<option>MT</option>
+									<option>MS</option>
+									<option>MG</option>
+									<option>PA</option>
+									<option>PB</option>
+									<option>PR</option>
+									<option>PE</option>
+									<option>PI</option>
+									<option>RJ</option>
+									<option>RN</option>
+									<option>RS</option>
+									<option>RO</option>
+									<option>RR</option>
+									<option>SC</option>
+									<option>SP</option>
+									<option>SE</option>
+									<option>TO</option>
+								</select>
+							</div>
+						</div>
+					</fieldset>
+					
+					<fieldset class="form-group">
+						<legend class="legend1"><strong>Endereço de Destino</strong><hr></legend>
+						<div class="row form-group">
+							<div class="col">
+								<label for="cLogradouro">Logradouro</label>
+								<input type="text" class="form-control" name="tLogradouro" id="cLogradouro">
+							</div>
+							<div class="col-md-3">
+								<label for="cNumero">Número</label>
+								<input type="text" class="form-control" name="tNumero" id="cNumero">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col">
+									<label for="cBairro">Bairro</label>
+									<input type="text" class="form-control" name="tBairro" id="cBairro" placeholder="">
+							</div>
+							<div class="col">
+									<label for="cComplemento">Complemento</label>
+									<input type="text" class="form-control" name="tComplemento" id="cComplemento" placeholder="">
+							</div>
+						</div>
+						<div class="row form-group">		
+							<div class="col">
+								<label for="cPontoRef">Ponto de Referência</label>
+								<input type="text" class="form-control" name="tPontoRef" id="cPontoRef">	
+							</div>				
+							<div class="col">
+								<label for="cCidade">Cidade</label>
+								<input type="text" class="form-control" name="tCidade" id="cCidade">
+							</div>
+							<div class="col-md-3">
+								<label for="cEstado">Estado</label>
+								<select  type="text" class="form-control" name="tEstado" id="cEstado">
+									<option>AC</option>
+									<option>AL</option>
+									<option>AP</option>
+									<option>AM</option>
+									<option>BA</option>
+									<option>CE</option>
+									<option>DF</option>
+									<option>ES</option>
+									<option>GO</option>
+									<option>MA</option>
+									<option>MT</option>
+									<option>MS</option>
+									<option>MG</option>
+									<option>PA</option>
+									<option>PB</option>
+									<option>PR</option>
+									<option>PE</option>
+									<option>PI</option>
+									<option>RJ</option>
+									<option>RN</option>
+									<option>RS</option>
+									<option>RO</option>
+									<option>RR</option>
+									<option>SC</option>
+									<option>SP</option>
+									<option>SE</option>
+									<option>TO</option>
+								</select>
+							</div>
+						</div>
+					</fieldset>
+					<button type="submit" class="btn btn-primary" name="tCadastrar" id="cCadastrar">Solicitar</button>
+
+				</form>
+				
+			</div>	
+		</div>
+	</div>
+
+</body>
+</html>
