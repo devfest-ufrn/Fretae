@@ -46,29 +46,21 @@ public class LoginActivity extends AppCompatActivity {
     };
 
     // UI references.
-    private AutoCompleteTextView mEmailView;
-    private EditText mPasswordView;
-    private View mProgressView;
-    private View mLoginFormView;
+//    private AutoCompleteTextView mEmailView;
+//    private EditText mPasswordView;
+//    private View mProgressView;
+//    private View mLoginFormView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button btnCriarConta = (Button) findViewById(R.id.btn_criar_conta);
-        btnCriarConta.setOnClickListener(new View.OnClickListener() {
+        TextView txtviewCriarConta = (TextView) findViewById(R.id.txtview_criar_conta);
+        txtviewCriarConta.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 abrirActivityCriarConta();
-            }
-        });
-
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        mEmailSignInButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                tentarLogar();
             }
         });
     }
