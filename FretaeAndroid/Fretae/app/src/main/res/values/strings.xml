@@ -20,4 +20,25 @@
     <string name="edittext_senha">Senha</string>
     <string name="edittext_repetir_senha">Repetir senha</string>
     <string name="title_activity_criar_conta">Criar Conta</string>
+
+    <string-array name="array_categorias">
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Caminhão</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="array_cores">
+        <item>Branco</item>
+        <item>Cinza</item>
+        <item>Preto</item>
+        <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Rosa</item>
+        <item>Outros</item>
+    </string-array>
 </resources>
