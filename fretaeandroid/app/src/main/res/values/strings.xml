@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Fretae</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="acao_criar_conta">Criar conta</string>
+    <string name="acao_criar">Criar</string>
+    <string name="edittext_senha">Senha</string>
+    <string name="edittext_repetir_senha">Repetir senha</string>
+    <string name="title_activity_criar_conta">Criar Conta</string>
+
+    <string-array name="array_categorias">
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Caminhão</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="array_cores">
+        <item>Branco</item>
+        <item>Cinza</item>
+        <item>Preto</item>
+        <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Rosa</item>
+        <item>Outros</item>
+    </string-array>
+</resources>
